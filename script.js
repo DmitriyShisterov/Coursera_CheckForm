@@ -56,7 +56,7 @@ function validateForm (settings) {
                 if (el.dataset.validatorMin !== null && el.dataset.validatorMax !== null) {
                     if (el.dataset.validatorMin > Number(el.value) || el.dataset.validatorMax < Number(el.value)) {
                         inputErrorClass(el);
-                        console.log('Testoviy commit')
+                        console.log('newObrabotchik');
                     }
                 }
             }
