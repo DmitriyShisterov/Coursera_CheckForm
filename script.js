@@ -57,6 +57,7 @@ function validateForm (settings) {
                     if (el.dataset.validatorMin > Number(el.value) || el.dataset.validatorMax < Number(el.value)) {
                         inputErrorClass(el);
                         console.log('newObrabotchik');
+                        console.log('newObrabotchik2');
                     }
                 }
             }
